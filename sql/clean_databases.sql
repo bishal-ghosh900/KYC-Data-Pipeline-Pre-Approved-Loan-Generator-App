@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS bank_bronze;
+DROP DATABASE IF EXISTS bank_silver;
+DROP DATABASE IF EXISTS bank_gold;
+
