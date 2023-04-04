@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS bank_silver;
 
 
-CREATE TABLE bank_silver.kyc (
+CREATE TABLE IF NOT EXISTS bank_silver.kyc (
   custid VARCHAR(6),
   first_name TEXT NOT NULL,
   last_name TEXT NOT NULL,
